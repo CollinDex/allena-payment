@@ -11,8 +11,8 @@ const config = {
   MONGO_DB_NAME: process.env.MONGO_DB_NAME,
   BASE_URL: process.env.BASE_URL,
   "api-prefix": "api/v1",
-  TOKEN_SECRET: process.env.AUTH_SECRET,
-  TOKEN_EXPIRY: process.env.AUTH_EXPIRY,
+  TOKEN_SECRET: process.env.TOKEN_SECRET,
+  TOKEN_EXPIRY: process.env.TOKEN_EXPIRY,
   SWAGGER_JSON_URL: process.env.SWAGGER_JSON_URL,
 };
 

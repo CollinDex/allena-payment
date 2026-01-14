@@ -2,7 +2,16 @@
 
 This repository is a small backend service implementing a wallet/payment flow and REST-based call session signaling for the AIleana assessment.
 
-Tech Stack
+## Features:
+
+- Authentication: SignUp, SignIn
+- Wallet: Create, Get, Fund, VerifyPayment
+- Calls: Initiate, Update Session, Get Session
+- Added tests for authentication, wallet and call services
+- Added middleware for authentication, error handling and input validation(and sanitization)
+- Added utility loggers for debugging
+
+1.  Tech Stack
 
 - Node.js (TypeScript) + Express
 - MongoDB (Mongoose)

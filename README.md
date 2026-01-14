@@ -10,6 +10,7 @@ This repository is a small backend service implementing a wallet/payment flow an
 - Added tests for authentication, wallet and call services
 - Added middleware for authentication, error handling and input validation(and sanitization)
 - Added utility loggers for debugging
+- Configured CI/CD Pipeline using Github Actions for automated tests and deployment
 
 1.  Tech Stack
 
